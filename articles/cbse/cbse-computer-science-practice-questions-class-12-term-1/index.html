@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/media/favicon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1 | EdPunk - Python, Computer Science (CS), Informatics Practices (IP) for CBSE XI XII">
+    <link rel="apple-touch-icon-precomposed" href="/media/ios-desktop.png">
+    <meta name="author" content="EdPunk Team">
+    <meta name="keywords" content="edpunk,cbse,cs,computer science,ip,informatics practices,python,sql">
+    <meta name="description" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1. EdPunk is a revolutionary mobile learning platform which provides free Python concept videos, notes,
+    NCERT solutions and tests for CBSE XI & XII Computer Science (CS) and Informatics Practices (IP)
+    students.">
+
+    <meta property="og:title" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1 | EdPunk - Python, Computer Science (CS), Informatics Practices (IP) for CBSE XI XII">
+    <meta property="og:description" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1. EdPunk is a revolutionary mobile learning platform which provides free Python concept videos, notes,
+    NCERT solutions and tests for CBSE XI & XII Computer Science (CS) and Informatics Practices (IP)
+    students.">
+    <meta property="og:image" content="https://edpunk.com/media/banners/pq-class-12.jpg">
+    <meta property="og:url" content="https://edpunk.com/articles/cbse/cbse-computer-science-practice-questions-class-12-term-1/">
+    <meta name="twitter:title" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1 | EdPunk - Python, Computer Science (CS), Informatics Practices (IP) for CBSE XI XII">
+    <meta name="twitter:description" content="Solutions for Practice Questions CBSE Computer Science Class 12 Term 1. EdPunk is a revolutionary mobile learning platform which provides free Python concept videos, notes,
+    NCERT solutions and tests for CBSE XI & XII Computer Science (CS) and Informatics Practices (IP)
+    students.">
+    <meta name="twitter:image" content="https://edpunk.com/media/banners/pq-class-12.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@edpunkapp">
+    <meta http-equiv='content-language' content='en-us'>
+
+    <title>Solutions for Practice Questions CBSE Computer Science Class 12 Term 1 | EdPunk - Python, Computer Science (CS), Informatics Practices (IP) for CBSE XI XII</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/ud-styles.css" />
+</head>
+
+<body>
+    <!-- ====== Header Start ====== -->
+    <header class="ud-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="/">
+                            <img src="/media/logo.png" alt="Logo" />
+                        </a>
+                        <div class="navbar-collapse">
+                            <ul id="nav" class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="/#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="/#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="/#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="/#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+                                Download
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+      <!-- ====== Hero Start ====== -->
+  <section class="ud-hero" id="home">
+    <div class="container">
+      <div class="row" style='position:relative;'>
+        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+          <div class="ud-hero-content">
+            <!--div class="ud-hero-logo">
+              <img src="media/logo-sq.svg" alt="logo" />
+            </div-->
+            <h1 class="ud-hero-title">
+              Leading the Mobile Learning Revolution.
+            </h1>
+            <ul class="ud-hero-buttons">
+              <li>
+                <a href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+                  <img src="/media/appstore-android.svg" alt="Download" />
+                </a>
+              </li>
+            </ul>
+            <br />
+            <p class="ud-hero-desc">
+              <b>Free</b> Concept Videos, Topic-wise Notes, Practice Tests and NCERT Solutions for CBSE Class 11 & 12
+              Computer Science (CS) and Informatics Practices (IP) students.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-none d-md-block" style="position: relative;">
+          <div class="ud-hero-image" style="position:absolute; bottom:0px;">
+            <img src="/media/hero/hero.png" alt="app-image" />
+            <img src="/media/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
+            <img src="/media/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
+          </div>
+        </div>
+
+      </div>
+      <div class="row d-md-none">
+        <div class="col-sm-12">
+          <div class="ud-hero-image">
+            <img src="/media/hero/hero.png" alt="app-image" />
+            <img src="/media/hero/dotted-shape.svg" alt="shape" class="shape shape-1" />
+            <img src="/media/hero/dotted-shape.svg" alt="shape" class="shape shape-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Hero End ====== -->
+
+    <!-- ====== About Start ====== -->
+    <section id="about" class="ud-about" style="padding-top: 0px;">
+        <div class="container">
+            <div class="ud-about-wrapper">
+                <div class="container" style="padding: 50px;">
+                    <div class="ud-about-content">
+                        <h2 id="practice-questions-class-xii">Practice Questions - Class: XII</h2>
+<h3 id="session-2021-22">Session: 2021-22</h3>
+<h3 id="computer-science-code-083-">Computer Science (Code 083)</h3>
+<h4 id="-theory-term-1-">(Theory: Term-1)</h4>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<p>1) If the value of <code>i</code> is <code>5</code>, the expression <code>i != 6</code></p>
+<p>a. has the value <code>False</code><br>b. has the value <code>True</code><br>c. sets the value of <code>i</code> to <code>6</code><br>d. sets the value of <code>i</code> to <code>-5</code></p>
+<h6 id="answer">Answer</h6>
+<p>b. has the value <code>True</code>  </p>
+<p>2) The main difference between the modes <code>&#39;w&#39;</code> and <code>&#39;a&#39;</code> when opening a file in Python is that</p>
+<p>a. <code>&#39;w&#39;</code> is used for writing a file and <code>&#39;a&#39;</code> for reading a file.<br>b. <code>&#39;w&#39;</code> over-writes an existing file while <code>&#39;a&#39;</code> writes to the end of the file.<br>c. <code>&#39;w&#39;</code> is used with text files while <code>&#39;a&#39;</code> is used with binary files.<br>d. <code>&#39;w&#39;</code> gives an error if the file does not exist while <code>&#39;a&#39;</code> creates it with no error.</p>
+<h6 id="answer">Answer</h6>
+<p>b. <code>&#39;w&#39;</code> over-writes an existing file while <code>&#39;a&#39;</code> writes to the end of the file. </p>
+<p>3) Sushma gets the current date and time as a string <code>x</code>. Its value is <code>&quot;2021-10-30 12:49:44.216062&quot;</code>. Sushma prints the value of <code>x[11:16]</code> and gets <code>&quot;12:49&quot;</code>. Which of these will contain the date in <code>yyyy-mm-dd</code> format?</p>
+<p>a. x[0:9]<br>b. x[0:10]<br>c. x[1:10]<br>d. x[1:11]</p>
+<h6 id="answer">Answer</h6>
+<p>b. x[0:10]</p>
+<p>4) Python&#39;s Pickle module is used for serializing and de-serializing any Python object structure and dumping / loading it to or from a binary file. Which of these is a case where it can be useful?</p>
+<p>a. graphically representing the contents of any Python object on the screen<br>b. sorting a large list of numbers in ascending or descending order quickly<br>c. storing the data in any Python object for later reconstruction or use<br>d. compressing a large dataset so that it can be saved in less than a tenth of the space  </p>
+<h6 id="answer">Answer</h6>
+<p>c. storing the data in any Python object for later reconstruction or use</p>
+<p>5) Which of these Python data structures cannot have duplicate items and does not support ordering?</p>
+<p>a. list<br>b. tuple<br>c. dictionary<br>d. set</p>
+<h6 id="answer">Answer</h6>
+<p>d. set</p>
+<p>6) Which of these Python data structures would be most suited to store the list of Indian states and their corresponding capitals?</p>
+<p>a. list<br>b. tuple<br>c. dictionary<br>d. set</p>
+<h6 id="answer">Answer</h6>
+<p>c. dictionary </p>
+<p>7) The statement <code>p -= 5</code> has the same effect as which of these statements?</p>
+<p>a. p = 5<br>b. p = -5<br>c. p = p - 5<br>d. p = 5 – p</p>
+<h6 id="answer">Answer</h6>
+<p>c. p = p - 5</p>
+<p>8) Which output lines of the following program will print the same results?</p>
+<pre><code>tup1 = (<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>, <span class="hljs-number">50</span>, <span class="hljs-number">60</span>, <span class="hljs-number">70</span>, <span class="hljs-number">80</span>, <span class="hljs-number">90</span>)
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(tup1[<span class="hljs-number">5</span>:-<span class="hljs-number">1</span>])</span></span>    #<span class="hljs-number">1</span>
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(tup1[<span class="hljs-number">5</span>])</span></span>       #<span class="hljs-number">2</span>
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(tup1[<span class="hljs-number">5</span>:])</span></span>      #<span class="hljs-number">3</span>
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(tup1[-<span class="hljs-number">4</span>:<span class="hljs-number">8</span>])</span></span>    #<span class="hljs-number">4</span>
+</code></pre><p>a. (1) and (2)<br>b. (1) and (4)<br>c. (2) and (3)<br>d. (1), (3) and (4)</p>
+<h6 id="answer">Answer</h6>
+<p>b. (1) and (4)</p>
+<p>9) Every time Raj&#39;s python program accesses the internet, it records the time and website accessed in a log file <code>&#39;internet_access.log&#39;</code>. This is one of the sample lines in the log file:</p>
+<pre><code>2021<span class="hljs-selector-tag">-09-01</span> 10<span class="hljs-selector-pseudo">:03</span><span class="hljs-selector-pseudo">:00</span>, <span class="hljs-selector-tag">www</span><span class="hljs-selector-class">.google</span><span class="hljs-selector-class">.com</span>
+</code></pre><p>Which of these lines would be used by the program to open the file?</p>
+<p>a. logfile = open(&#39;internet_access.log&#39;, &#39;rb&#39;)<br>b. logfile = open(&#39;internet_access.log&#39;,&#39;w&#39;)<br>c. logfile = open(&#39;internet_access.log&#39;, &#39;a+&#39;)<br>d. logfile = open(&#39;internet_access.log&#39;, &#39;ab&#39;)</p>
+<h6 id="answer">Answer</h6>
+<p>c. logfile = open(&#39;internet_access.log&#39;, &#39;a+&#39;)  </p>
+<p>10) Which of these functions can be used to set a file&#39;s current position?</p>
+<p>a. seek()<br>b. set()<br>c. tell()<br>d. open()</p>
+<h6 id="answer">Answer</h6>
+<p>a. seek() </p>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<p>11) When setting the current position of a file, the position CANNOT be set with reference to which of these?</p>
+<p>a. the beginning of the file<br>b. the current file position<br>c. the middle of the file<br>d. the end of the file</p>
+<h6 id="answer">Answer</h6>
+<p>c. the middle of the file </p>
+<p>12) If a function is defined by the line <code>&quot;def calculate(p, q=100, r=10):&quot;</code>, which of the following is true?</p>
+<p>a. p is an optional parameter<br>b. q and r are optional parameters<br>c. q will always have value 100 in the function<br>d. the above line will cause a syntax error</p>
+<h6 id="answer">Answer</h6>
+<p>b. q and r are optional parameters</p>
+<p>13) Which of these points about the return statement is FALSE?</p>
+<p>a. A return statement can only be used inside a function<br>b. A return statement can be used without any expression<br>c. When encountered, a return statement terminates a function<br>d. A function cannot have more than one return statements  </p>
+<h6 id="answer">Answer</h6>
+<p>d. A function cannot have more than one return statements </p>
+<p>14) A CSV file</p>
+<p>a. is a text file<br>b. can store images<br>c. is a type of python program<br>d. is a Computer Software Validation file</p>
+<h6 id="answer">Answer</h6>
+<p>a. is a text file </p>
+<p>15) Python&#39;s <code>abs()</code> function returns the absolute value of number passed to it. For example <code>abs(5)</code> is equal to <code>5</code> and <code>abs(-3.1) = 3.1</code>. What will be the value of</p>
+<pre><code>   abs(<span class="hljs-number">3</span> – abs(<span class="hljs-name">-10</span>))
+</code></pre><p>a. 13<br>b. -13<br>c. -7<br>d. 7</p>
+<h6 id="answer">Answer</h6>
+<p>d. 7</p>
+<p>16) Which of these statements about text and binary files is true?</p>
+<p>a. A text file has the same number of characters in each line unlike a binary file.<br>b. A text file has a special End Of File character unlike a binary file.<br>c. An HTML file is an example of a text file while a CSV file is an example of a binary file.<br>d. Every character in a text file can occur in a binary file but the reverse is not true.  </p>
+<h6 id="answer">Answer</h6>
+<p>b. A text file has a special End Of File character unlike a binary file. </p>
+<h4 id="read-the-below-and-answer-questions-17-and-18-">Read the below and answer questions 17 and 18:</h4>
+<p>The exponentiation operator in Python (**) has higher precedence than the division (/) and multiplication (*) operators, meaning that ** will be evaluated before / and * in an expression. Operators / and * have the same precedence.</p>
+<p>Further, ** evaluates from right to left, meaning that if an expression has multiple operators of the same precedence of **, the operator on the right will be evaluated before the operator on the left. On the other hand, / and * evaluate from left to right.</p>
+<p>17) Which operator will be evaluated first in this expression?</p>
+<pre><code><span class="hljs-symbol">6 </span>* <span class="hljs-number">3</span> ** <span class="hljs-number">2</span> ** <span class="hljs-number">2</span> / <span class="hljs-number">2</span>
+</code></pre><p>a. <em><br>b. the first <em>* from the left<br>c. the second </em></em> from the left<br>d. /</p>
+<h6 id="answer">Answer</h6>
+<p>c. the second ** from the left  </p>
+<p>18) What will be the value of this expression:</p>
+<pre><code><span class="hljs-symbol">4 </span>/ <span class="hljs-number">2</span> ** <span class="hljs-number">3</span> * <span class="hljs-number">2</span>
+</code></pre><p>a. 16.0<br>b. 1.0<br>c. 1/4<br>d. 1/16</p>
+<h6 id="answer">Answer</h6>
+<p>b. 1.0  </p>
+<p>19) Which of these statements about <code>for</code> and <code>while</code> loops in Python is TRUE?</p>
+<p>a. A for loop usually run a given number of times; a while loop runs while a condition is met.<br>b. Statements in a for loop are always run at least once; those in a while loop may never be run.<br>c. A for loop cannot contain another for loop; a while loop can contain another while loop.<br>d. A for loop always has to have a loop counter; a while loop never uses a loop counter.  </p>
+<h6 id="answer">Answer</h6>
+<p>a. A for loop usually run a given number of times; a while loop runs while a condition is met.  </p>
+<p>20) How does a Python program know where a FOR block ENDS?</p>
+<p>a. when it finds a closing bracket (}) character<br>b. when it finds the keyword ENDFOR<br>c. when it finds a line with matching indentation<br>d. when it finds a colon (:) character</p>
+<h6 id="answer">Answer</h6>
+<p>c. when it finds a line with matching indentation  </p>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<p>21) Sonal wrote the following program print_students.py to print the number of students in her class.</p>
+<pre><code><span class="hljs-class"><span class="hljs-keyword">class</span> = 5</span>
+section = <span class="hljs-string">"A"</span>
+students = <span class="hljs-number">30</span>
+print (<span class="hljs-string">"There are"</span>, students, <span class="hljs-string">"students in class"</span>, <span class="hljs-class"><span class="hljs-keyword">class</span>, <span class="hljs-type">section)</span></span>
+</code></pre><p>However, when she ran the program, she got the following output:</p>
+<pre><code>     <span class="hljs-keyword">File</span> <span class="hljs-string">".\print_students.py"</span>, <span class="hljs-keyword">line</span> 1
+       <span class="hljs-keyword">class</span> = 5
+             ^
+   SyntaxError: invalid <span class="hljs-keyword">syntax</span>
+</code></pre><p>Which of these changes will make the program run without error?</p>
+<p>a. writing &#39;==&#39; instead of &#39;=&#39; (correct assignment operator)<br>b. writing &quot;5&quot; instead of 5 (variable should be a string)<br>c. changing the variable name (&#39;class&#39; is a reserved word)<br>d. adding a colon (&#39;:&#39;) at the end of the statement (begin indented block)</p>
+<h6 id="answer">Answer</h6>
+<p>c. changing the variable name (&#39;class&#39; is a reserved word)  </p>
+<h4 id="read-the-following-and-answer-questions-22-and-23-">Read the following and answer questions 22 and 23:</h4>
+<p>A log file records the time, userid, record number and number of bytes read from a certain database. Each of the fields uses a fixed number of bytes. The last 3 lines of the file were as follows at some time:</p>
+<pre><code>2021<span class="hljs-selector-tag">-08-09</span> 10<span class="hljs-selector-pseudo">:21</span><span class="hljs-selector-pseudo">:20</span><span class="hljs-selector-pseudo">::0014</span><span class="hljs-selector-pseudo">::06733628</span><span class="hljs-selector-pseudo">::00001024</span> 
+2021<span class="hljs-selector-tag">-08-09</span> 10<span class="hljs-selector-pseudo">:22</span><span class="hljs-selector-pseudo">:03</span><span class="hljs-selector-pseudo">::0443</span><span class="hljs-selector-pseudo">::06384626</span><span class="hljs-selector-pseudo">::00001024</span> 
+2021<span class="hljs-selector-tag">-08-09</span> 10<span class="hljs-selector-pseudo">:22</span><span class="hljs-selector-pseudo">:52</span><span class="hljs-selector-pseudo">::0014</span><span class="hljs-selector-pseudo">::00549374</span><span class="hljs-selector-pseudo">::00001024</span>
+</code></pre><p>22) What is the inter-field delimiter used by the file?</p>
+<p>a. Comma (,)<br>b. Colon (:)<br>c. Double-colon(::)<br>d. Hyphen (-)</p>
+<h6 id="answer">Answer</h6>
+<p>c. Double-colon(::)  </p>
+<p>23) Which of these lines will return the latest entry from the file? (Assume the file handler is file and SEEK_START and SEEK_END represent the offsets from the beginning and end of the file respectively)</p>
+<p>a. file.seek(-45, SEEK_END)<br>b. file.seek(45, SEEK_END)<br>c. file.seek(135, SEEK_START)<br>d. file.seek(-135, SEEK_START)</p>
+<h6 id="answer">Answer</h6>
+<p>a. file.seek(-45, SEEK_END) </p>
+<p>24) The advantage of opening a file using the with clause instead of the open() function is that:</p>
+<p>a. the access mode does not have to be specified<br>b. the file does not have to explicitly be closed<br>c. the filename does not have to be specified<br>d. the file gets opened for reading and writing</p>
+<h6 id="answer">Answer</h6>
+<p>b. the file does not have to explicitly be closed  </p>
+<p>25) What should appear in the place of the <code>&#39;?&#39;</code> symbol in the table below?</p>
+<pre><code><span class="hljs-attribute">   mystring</span> = <span class="hljs-string">"I love Python"</span>
+</code></pre><table>
+<thead>
+<tr>
+<th>Expression</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mystring[-1]</td>
+<td>n</td>
+</tr>
+<tr>
+<td>mystring[-3:]</td>
+<td>hon</td>
+</tr>
+<tr>
+<td>mystring[5:-4]</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>a. e Py<br>b. ve<br>c. evol<br>d. ython</p>
+<h6 id="answer">Answer</h6>
+<p>a. e Py  </p>
+<p>26) Identify the error in the program below:</p>
+<pre><code>import pickle
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(<span class="hljs-string">"The data that were stored in file are: "</span>)</span></span> 
+fileobject=open(<span class="hljs-string">"mydata.dat"</span>,<span class="hljs-string">"r"</span>) 
+objectvar=pickle.load(fileobject) 
+fileobject.close()
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(objectvar)</span></span>
+</code></pre><p>a. The 3rd line should be fileobject=open(&quot;mydata.dat&quot;,&quot;rb&quot;)<br>b. The 4th line should be objectvar=pickle.dump(fileobject)<br>c. The fileobject.close() statement should come AFTER the print(objectvar) statement<br>d. The last line should be print(fileobject)</p>
+<h6 id="answer">Answer</h6>
+<p>a. The 3rd line should be fileobject=open(&quot;mydata.dat&quot;,&quot;rb&quot;)  </p>
+<p>27) What will be the output of this program?</p>
+<pre><code><span class="hljs-selector-tag">p</span> = None 
+<span class="hljs-selector-tag">q</span> = <span class="hljs-number">0</span> 
+r = <span class="hljs-string">""</span>
+s = <span class="hljs-string">"None"</span> 
+<span class="hljs-keyword">if</span> (<span class="hljs-selector-tag">p</span> == q):
+    print (<span class="hljs-string">"None is the same as 0"</span>) 
+elif (<span class="hljs-selector-tag">p</span> == r):
+    print (<span class="hljs-string">"None is the same as empty string"</span>) 
+elif (<span class="hljs-selector-tag">p</span> == s):
+    print (<span class="hljs-string">"None is the same as the string 'None'"</span>) 
+<span class="hljs-keyword">else</span>:
+    print (<span class="hljs-string">"None of the above"</span>)
+</code></pre><p>a. None is the same as 0<br>b. None is the same as empty string<br>c. None is the same as the string &#39;None&#39;<br>d. None of the above</p>
+<h6 id="answer">Answer</h6>
+<p>d. None of the above</p>
+<p>In Python, lists are mutable and tuples immutable. See the program and answer questions 28 and 29:</p>
+<pre><code>list_items = [<span class="hljs-string">"Sachin"</span>, <span class="hljs-string">"Dravid"</span>, <span class="hljs-string">"Kapil"</span>, <span class="hljs-string">"Dhoni"</span>, <span class="hljs-string">"Sourav"</span>] 
+tuple_items = (<span class="hljs-string">"Sunday"</span>, <span class="hljs-string">"Monday"</span>, <span class="hljs-string">"Tuesday"</span>, <span class="hljs-string">"Wednesday"</span>, <span class="hljs-string">"Thursday"</span>) 
+list_items[<span class="hljs-number">4</span>] = <span class="hljs-string">"Harbhajan"</span>
+tuple_items[<span class="hljs-number">4</span>] = <span class="hljs-string">"Friday"</span>
+print(list_items[<span class="hljs-number">4</span>], tuple_items[<span class="hljs-number">4</span>])
+</code></pre><p>28) In python, the term mutable means: </p>
+<p>a. memory-efficient<br>b. fixed<br>c. changeable<br>d. sequential  </p>
+<h6 id="answer">Answer</h6>
+<p>c. changeable </p>
+<p>29) What will be the output of this program?</p>
+<p>a. Sourav Thursday<br>b. Harbhajan Friday<br>c. An error will be reported on line 3<br>d. An error will be reported on line 4</p>
+<h6 id="answer">Answer</h6>
+<p>d. An error will be reported on line 4</p>
+<p>30) What will be the output of this program? (All quotes shown are double quotes)</p>
+<pre><code>message = <span class="hljs-string">"My favourite movie is "</span><span class="hljs-number">3</span> Idiots<span class="hljs-string">""</span> 
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(message[<span class="hljs-number">23</span>:])</span></span>
+</code></pre><p>a. 3 Idiots<br>b. 3 Idiots&quot;&quot;<br>c. Syntax error on line 1<br>d. Syntax error on line 2  </p>
+<h6 id="answer">Answer</h6>
+<p>c. Syntax error on line 1</p>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<p>31) What will be the output of this program?</p>
+<pre><code>   question = <span class="hljs-string">"How are you, Ravi?"</span>
+   x = txt.<span class="hljs-built_in">find</span>(<span class="hljs-string">","</span>)
+   y = txt.<span class="hljs-built_in">find</span>(<span class="hljs-string">"?"</span>)
+   <span class="hljs-built_in">print</span>(txt[x+<span class="hljs-number">2</span>:y])
+</code></pre><p>a. How are you Ravi<br>b. How are you<br>c. Ravi<br>d. Ravi?  </p>
+<h6 id="answer">Answer</h6>
+<p>The program will throw an error as txt is not defined, hence the options in this case are incorrect. 
+In case txt was defined as <code>txt = &quot;How are you, Ravi?&quot;</code> the correct answer would have been option c Ravi</p>
+<p>32) What will be the output of this program?</p>
+<pre><code>m=1
+n = <span class="hljs-string">"1"</span>
+print (<span class="hljs-name">str</span>(<span class="hljs-name">m</span>) + n)
+</code></pre><p>a. 1<br>b. 2<br>c. 11<br>d. Syntax Error  </p>
+<h6 id="answer">Answer</h6>
+<p>c. 11 </p>
+<p>33) What will be the output of this Python line?</p>
+<p><code>print(&quot;This is Delhi. # Delhi is the capital of India.&quot;) # This is a comment.</code></p>
+<p>a. This is Delhi.<br>b. This is Delhi. # Delhi is the capital of India. # This is a comment.<br>c. This is Delhi. # Delhi is the capital of India.<br>d. This is Delhi. This is a comment.  </p>
+<h6 id="answer">Answer</h6>
+<p>c. This is Delhi. # Delhi is the capital of India.  </p>
+<p>34) What will be the output of this program?</p>
+<pre><code><span class="hljs-selector-tag">p</span> = <span class="hljs-string">"12"</span>
+<span class="hljs-selector-tag">q</span> = <span class="hljs-string">"5"</span>
+r = <span class="hljs-number">10</span>
+s = <span class="hljs-number">8</span>
+<span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(p+q, r+s)</span></span>
+</code></pre><p>a. 17 18<br>b. 125 108<br>c. 17 108<br>d. 125 18  </p>
+<h6 id="answer">Answer</h6>
+<p>d. 125 18  </p>
+<p>Study the following program which has an unintended error and answer questions 35 and 36. [Recall that range (m, n) is all integers from m to n-1]</p>
+<pre><code>i=1
+<span class="hljs-keyword">while</span> (i &lt;= 10):              # <span class="hljs-keyword">For</span> every number i from 1 to 10
+    <span class="hljs-keyword">sum</span> = 0                   # <span class="hljs-keyword">Set</span> <span class="hljs-keyword">sum</span> to 0
+    <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> <span class="hljs-keyword">range</span>(1,i+1):
+        <span class="hljs-keyword">sum</span> += x              # Add every number from 1 to <span class="hljs-built_in">i</span>
+
+    <span class="hljs-keyword">print</span>(i, <span class="hljs-keyword">sum</span>)             # <span class="hljs-keyword">print</span> the result
+</code></pre><p>35) What is the programmer trying to do in the program?</p>
+<p>a. Print all the odd numbers from 1 to 10<br>b. Print the total of all numbers from 1 to 10<br>c. For each number till 10, print the sum of numbers between 1 and the number.<br>d. For each number till 10, print the sum of the number and its previous number  </p>
+<h6 id="answer">Answer</h6>
+<p>c. For each number till 10, print the sum of numbers between 1 and the number. </p>
+<p>36) Identify the error in the program</p>
+<p>a. sum = 0 should be BEFORE the while statement<br>b. The range should be from 0 (not 1) to i+1<br>c. i = i + 1 should be added after the print statement<br>d. There is no error in the program  </p>
+<h6 id="answer">Answer</h6>
+<p>c. i = i + 1 should be added after the print statement  </p>
+<p>37) What will this program output? [Recall that 5 % 3 = 2, 10 % 2 = 0 and 7 % 3 = 1]</p>
+<pre><code><span class="hljs-keyword">for</span> <span class="hljs-built_in">i</span> in range(<span class="hljs-number">0</span>, <span class="hljs-number">100</span>):
+    <span class="hljs-keyword">if</span> (<span class="hljs-built_in">i</span> <span class="hljs-comment">% 3 == 0) or (i % 4 == 0):</span>
+        <span class="hljs-keyword">continue</span>
+    print(<span class="hljs-built_in">i</span>)
+</code></pre><p>a. All numbers less than 100 that are multiples of 12<br>b. All numbers less than 100 that are NOT multiples of 12<br>c. All numbers less than 100 that are multiples of 3 or 4<br>d. All numbers less than 100 that are NOT multiples of 3 or 4  </p>
+<h6 id="answer">Answer</h6>
+<p>d. All numbers less than 100 that are NOT multiples of 3 or 4  </p>
+<p>38) See the following program snippet which lists out the names of all students:</p>
+<pre><code>student_list = [<span class="hljs-string">"Ravi"</span>, <span class="hljs-string">"Sunita"</span>, <span class="hljs-string">"Gopal"</span>, <span class="hljs-string">"Salma"</span>, <span class="hljs-string">"Lily"</span>] 
+number_of_students = len(student_list)
+
+<span class="hljs-selector-tag">i</span> = <span class="hljs-number">0</span>
+while <span class="hljs-selector-tag">i</span> &lt;= number_of_students:
+    print(student_list[i])
+    <span class="hljs-selector-tag">i</span> += <span class="hljs-number">1</span>
+</code></pre><p>When it was run, it gave the following error on the last line</p>
+<pre><code>    IndexError: list index <span class="hljs-keyword">out</span> <span class="hljs-keyword">of</span> <span class="hljs-keyword">range</span>
+</code></pre><p>Which of these will correct the error?</p>
+<p>a. Replacing i = 0 with i = 1<br>b. Replacing i &lt;= number_of_students with i &lt; number_of_students<br>c. Replacing student_list[i] with student_list[i-1]<br>d. Replacing i += 1 with i = i + 1  </p>
+<h6 id="answer">Answer</h6>
+<p>b. Replacing i &lt;= number_of_students with i &lt; number_of_students</p>
+<p>39) See the code below using Python&#39;s pickle module to STORE data into file &#39;Latlong data&#39;:</p>
+<pre><code><span class="hljs-keyword">import</span> pickle
+
+<span class="hljs-class"><span class="hljs-keyword">data</span> = ['<span class="hljs-type">New</span> <span class="hljs-type">Delhi'</span>, '28.6139° <span class="hljs-type">N'</span>, '77.2090° <span class="hljs-type">E'</span>]</span>
+
+<span class="hljs-title">file</span> = open('<span class="hljs-type">Latlong</span> <span class="hljs-class"><span class="hljs-keyword">data</span>',______(1)______)</span>
+<span class="hljs-title">pickle</span>.______(2)______(<span class="hljs-class"><span class="hljs-keyword">data</span>, file)</span>
+<span class="hljs-title">file</span>.close()
+</code></pre><p>What, respectively, should appear in blanks (1) and (2)?</p>
+<p>a. &#39;rb&#39; and dump<br>b. &#39;wb&#39; and dump<br>c. &#39;rb&#39; and load<br>d. &#39;wb&#39; and load  </p>
+<h6 id="answer">Answer</h6>
+<p>b. &#39;wb&#39; and dump </p>
+<p>40) What will be the value of p and r at the end of this program?</p>
+<pre><code><span class="hljs-selector-tag">p</span> = <span class="hljs-number">40</span>
+r = <span class="hljs-number">50</span> 
+p= <span class="hljs-selector-tag">p</span> + r 
+r = <span class="hljs-selector-tag">p</span> - r 
+<span class="hljs-selector-tag">p</span> = <span class="hljs-selector-tag">p</span> - r 
+print (<span class="hljs-selector-tag">p</span>, r)
+</code></pre><p>a. p = 40, r = 40<br>b. p = 50, r = 50<br>c. p = 50, r = 40<br>d. p = 40, r = 50  </p>
+<h6 id="answer">Answer</h6>
+<p>c. p = 50, r = 40</p>
+
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<h4 id="read-the-following-and-answer-questions-41-and-42-">Read the following and answer questions 41 and 42.</h4>
+<p>File &#39;RoadNotTaken.txt&#39; has these lines:</p>
+<pre><code>Two roads diverged <span class="hljs-keyword">in</span> <span class="hljs-keyword">a</span> wood, <span class="hljs-keyword">and</span> I—
+I took <span class="hljs-keyword">the</span> <span class="hljs-literal">one</span> less traveled <span class="hljs-keyword">by</span>,
+And that has made all <span class="hljs-keyword">the</span> difference.
+</code></pre><p>The following code opens this file:</p>
+<pre><code>   fp = <span class="hljs-keyword">open</span>(<span class="hljs-string">"RoadNotTaken.txt"</span>, <span class="hljs-string">'r'</span>)
+   poem = fp.readlines()
+   <span class="hljs-keyword">print</span> (<span class="hljs-built_in">len</span>(poem))
+   fp.<span class="hljs-keyword">close</span>()
+</code></pre>
+
+
+
+<p>41) What is the data type of the variable poem?</p>
+<p>a. string<br>b. list<br>c. tuple<br>d. dictionary  </p>
+<h6 id="answer">Answer</h6>
+<p>b. list</p>
+<p>42) What will be the output of the above program?</p>
+<p>a. 2<br>b. 3<br>c. 8<br>d. 22  </p>
+<h6 id="answer">Answer</h6>
+<p>b. 3 </p>
+<p>43) The score of a student in a test is stored as a Python tuple. The test had 3 questions, with some questions having subparts whose scores are recorded separately.</p>
+<pre><code>score = (<span class="hljs-number">6</span>, (<span class="hljs-number">5</span>, (<span class="hljs-number">2</span>, <span class="hljs-number">1</span>), <span class="hljs-number">8</span>), (<span class="hljs-number">4</span>, <span class="hljs-number">3</span>, (<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>)))
+print (score[<span class="hljs-number">2</span>][<span class="hljs-number">2</span>])
+</code></pre><p>What will be the output of this program snippet?</p>
+<p>a. (1, 3, 2)<br>b. (2, 1)<br>c. 3<br>d. 8  </p>
+<h6 id="answer">Answer</h6>
+<p>a. (1, 3, 2)  </p>
+<p>44) What will be the output of the program snippet below?</p>
+<pre><code><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">phone_with_country_code</span> <span class="hljs-params">(phone_number, country=<span class="hljs-string">"India"</span>)</span>:</span>
+    country_codes = {<span class="hljs-string">"India"</span>: <span class="hljs-string">"+91"</span>, <span class="hljs-string">"Singapore"</span>: <span class="hljs-string">"+65"</span>, <span class="hljs-string">"United States"</span>: <span class="hljs-string">"+1"</span>}
+    <span class="hljs-keyword">if</span> country <span class="hljs-keyword">not</span> <span class="hljs-keyword">in</span> country_codes: 
+       <span class="hljs-keyword">return</span>(<span class="hljs-string">"Country is not supported"</span>)
+    <span class="hljs-keyword">return</span> (country_codes[country] + <span class="hljs-string">" "</span> + phone_number)
+
+print(phone_with_country_code(<span class="hljs-string">"9876500001"</span>), <span class="hljs-string">"|"</span>, phone_with_country_code(<span class="hljs-string">"203-607-1232"</span>, <span class="hljs-string">"United States"</span>))
+</code></pre><p>a. India 9876500001 | United States 203-607-1232<br>b. +91 9876500001 | +1 203-607-1232<br>c. 9876500001 | +1 203-607-1232<br>d. 9876500001 | United States 203-607-1232  </p>
+<h6 id="answer">Answer</h6>
+<p>b. +91 9876500001 | +1 203-607-1232<br></p>
+<p>45) The choice() method of Python&#39;s random module returns a random element from a list. See the program below.</p>
+<pre><code><span class="hljs-keyword">import</span> <span class="hljs-built_in">random</span>
+
+suits = (<span class="hljs-string">"Hearts"</span>, <span class="hljs-string">"Clubs"</span>, <span class="hljs-string">"Diamonds"</span>, <span class="hljs-string">"Spades"</span>)
+cards = (<span class="hljs-string">"Ace"</span>, <span class="hljs-string">"2"</span>, <span class="hljs-string">"3"</span>, <span class="hljs-string">"4"</span>, <span class="hljs-string">"5"</span>, <span class="hljs-string">"6"</span>, <span class="hljs-string">"7"</span>, <span class="hljs-string">"8"</span>, <span class="hljs-string">"9"</span>, <span class="hljs-string">"Jack"</span>, <span class="hljs-string">"Queen"</span>, <span class="hljs-string">"King"</span>)
+
+card_picked = <span class="hljs-built_in">random</span>.choice(cards) + <span class="hljs-string">" of "</span> + <span class="hljs-built_in">random</span>.choice(suits) 
+<span class="hljs-built_in">print</span>(card_picked)
+</code></pre><p>Which of these COULD be an output of this program?</p>
+<p>a. Hearts Ace<br>b. Diamonds of Queen<br>c. 7 of King<br>d. Jack of Clubs  </p>
+<h6 id="answer">Answer</h6>
+<p>d. Jack of Clubs </p>
+<p>46) Study the manual entry for the split() method given below.  </p>
+<pre><code><span class="hljs-built_in">split</span> (sep=None, maxsplit=- <span class="hljs-number">1</span>)
+Return <span class="hljs-keyword">a</span> list <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">words</span> <span class="hljs-keyword">in</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">string</span>, <span class="hljs-keyword">using</span> sep <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> delimiter <span class="hljs-keyword">string</span>. If maxsplit is given, <span class="hljs-keyword">at</span> most maxsplit splits are done (thus, <span class="hljs-keyword">the</span> list will have <span class="hljs-keyword">at</span> most maxsplit+<span class="hljs-number">1</span> elements). If maxsplit is <span class="hljs-keyword">not</span> specified <span class="hljs-keyword">or</span> <span class="hljs-number">-1</span>, all possible splits are made.
+</code></pre><p>What will be the output of the program given below?</p>
+<pre><code><span class="hljs-built_in">string</span> = <span class="hljs-string">"2021-08-09 10:22:03::0443::06384626::00001024"</span>
+
+parts = <span class="hljs-built_in">string</span>.<span class="hljs-built_in">split</span>(<span class="hljs-string">"::"</span>, <span class="hljs-number">2</span>)
+<span class="hljs-built_in">print</span>(parts)
+</code></pre><p>a. [&#39;2021-08-09 10:22:03&#39;, &#39;0443::06384626::00001024&#39;]<br>b. [&#39;2021-08-09 10&#39;, &#39;22&#39;, &#39;03::0443::06384626::00001024&#39;]<br>c. [&#39;2021-08-09 10:22:03&#39;, &#39;0443&#39;, &#39;06384626::00001024&#39;]<br>d. [&#39;2021-08-09 10:22:03&#39;, &#39;0443&#39;, &#39;06384626&#39;, &#39;00001024&#39;]  </p>
+<h6 id="answer">Answer</h6>
+<p>c. [&#39;2021-08-09 10:22:03&#39;, &#39;0443&#39;, &#39;06384626::00001024&#39;]  </p>
+<p>47) What will be the output of this program?</p>
+<pre><code>p = <span class="hljs-number">1</span>  
+q = <span class="hljs-number">6</span>
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">change_values</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-keyword">global</span> p
+    q = <span class="hljs-number">5</span>
+    p = p + q
+    <span class="hljs-keyword">return</span> (p)
+
+change_values()
+print(p, q)
+</code></pre><p>a. 6 5<br>b. 1 5<br>c. 6 6<br>d. 1 6</p>
+<h6 id="answer">Answer</h6>
+<p>c. 6 6 </p>
+<h4 id="read-the-information-below-and-answer-questions-48-and-49">Read the information below and answer questions 48 and 49</h4>
+<p>In Python and other languages, a &#39;regular expression&#39; is a pattern of characters in which some characters have a special meaning. Specifically:</p>
+<ol>
+<li>Any characters enclosed within square brackets ([]) represent any one of those characters  </li>
+<li>A * following a character represents zero or more of those characters.  </li>
+<li>All letters and digits represent themselves  </li>
+</ol>
+<p>Thus:<br><code>ab*</code> could represent &#39;a&#39;, &#39;ab&#39;, &#39;abb&#39;, &#39;abbb&#39; and so on but NOT &#39;bbb&#39; or &#39;aba&#39;. (Rules 2 and 3)<br><code>star[ekt]</code> could represent &#39;stare&#39;, &#39;stark&#39; or &#39;start&#39; but NOT &#39;star&#39; or &#39;are&#39; (Rules 1 and 3)<br><code>a[bcd]*</code> could represent &#39;a&#39;, &#39;ab&#39;, &#39;abc&#39;, &#39;acdd&#39; and so on but not &#39;aba&#39; or &#39;aa&#39; (Rules 1-3)  </p>
+<p>48) Which of these would NOT be represented by [ab]c*?  </p>
+<p>a. ac<br>b. abc<br>c. bc<br>d. bccc  </p>
+<h6 id="answer">Answer</h6>
+<p>b. abc</p>
+<p>49) A factory codes its products using a series of letters and numbers. Each code starts with 10, 11 or 12 (representing different production locations), followed by an S, M or L (for Small, Medium or Large), followed by a 4 digit number. Which of the following would represent this?</p>
+<p>a. <code>[101112][SML]1234</code><br>b. <code>1[012]SML[123456789]</code><br>c. <code>1[012][SML][0123456789][0123456789][0123456789][0123456789]</code><br>d. <code>[012][012][SML][0123456789][0123456789][0123456789][0123456789]</code></p>
+<h6 id="answer">Answer</h6>
+<p>c. <code>1[012][SML][0123456789][0123456789][0123456789][0123456789]</code>  </p>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+
+<p>Nagesh and Simran have written this Python program. It asks for a student&#39;s name and roll no. If both match the records in a CSV file, it displays the student&#39;s English, Maths and Computer Science marks.</p>
+<p>The marks data is stored in a file student_marks.csv whose first 3 rows are as shown below:</p>
+<pre><code>Name,Roll No,Comments,English,Maths,Computer Science 
+Nagesh Rao,<span class="hljs-number">12342</span>,,<span class="hljs-number">85</span>,<span class="hljs-number">92</span>,<span class="hljs-number">96</span>
+Simran Shah,<span class="hljs-number">14324</span>,Absent for English test,A,<span class="hljs-number">87</span>,<span class="hljs-number">99</span> 
+Ravi Gulati,<span class="hljs-number">43234</span>,,<span class="hljs-number">76</span>,<span class="hljs-number">97</span>,<span class="hljs-number">81</span>
+</code></pre><p>Study the program and answer the questions that follow:</p>
+<pre><code><span class="hljs-built_in">import</span> csv
+
+print(<span class="hljs-string">"Enter your name and roll number to see your subject marks...\n"</span>) 
+<span class="hljs-attr">name</span> = input(<span class="hljs-string">"Enter Name exactly as in Hall Ticket: "</span>)
+<span class="hljs-attr">rollno</span> = input(<span class="hljs-string">"Enter Roll No.: "</span>)
+
+<span class="hljs-keyword">with</span> open('student_marks.csv' ____(<span class="hljs-number">1</span>)____ ) as csv_file: 
+    <span class="hljs-attr">csv_reader</span> = csv.reader(csv_file, <span class="hljs-attr">delimiter=',')</span> 
+    <span class="hljs-attr">line_count</span> = <span class="hljs-number">0</span>
+    <span class="hljs-attr">match_found</span> = False
+    for row <span class="hljs-keyword">in</span> csv_reader: 
+        line_count += <span class="hljs-number">1</span>
+        <span class="hljs-keyword">if</span> <span class="hljs-attr">line_count</span> == <span class="hljs-number">1</span>:
+            ____(<span class="hljs-number">2</span>)____ 
+        <span class="hljs-keyword">else</span>:
+            <span class="hljs-keyword">if</span> row[<span class="hljs-number">0</span>].lower() == name.lower() <span class="hljs-literal">and</span> row[<span class="hljs-number">1</span>] == rollno: 
+                <span class="hljs-attr">match_found</span> = True
+                <span class="hljs-attr">eng_marks</span> = row[<span class="hljs-number">3</span>]
+                <span class="hljs-attr">maths_marks</span> = row[<span class="hljs-number">4</span>]
+                <span class="hljs-attr">cs_marks</span> = row[<span class="hljs-number">5</span>]
+                print(<span class="hljs-string">"\n"</span>+row[<span class="hljs-number">0</span>]+<span class="hljs-string">"'s marks are:\nEnglish:"</span>,eng_marks) 
+                print(<span class="hljs-string">"Maths:"</span>, maths_marks, <span class="hljs-string">"\nComp Sc:"</span>, cs_marks,<span class="hljs-string">"\n\nThank you!"</span>)
+                ____(<span class="hljs-number">3</span>)____
+    <span class="hljs-keyword">if</span> <span class="hljs-attr">match_found</span> == False:
+        print (<span class="hljs-string">"\nNo matching name and roll number found. Please check and re-enter"</span>)
+</code></pre><p>50) What mode of opening should come in blank 1? </p>
+<p>a. w<br>b. a<br>c. wb<br>d. &lt; nothing is needed - r is default&gt;</p>
+<h6 id="answer">Answer</h6>
+<p>d. &lt; nothing is needed - r is default&gt;</p>
+
+
+
+<p>51) What statements, respectively, should come in blanks 2 and 3? Choose the BEST answer. </p>
+<p>a. continue and continue<br>b. break and break<br>c. break and continue<br>d. continue and break</p>
+<h6 id="answer">Answer</h6>
+<p>d. continue and break</p>
+<p>52) What is the data type of the variable match_found?</p>
+<p>a. bytes<br>b. str<br>c. int<br>d. bool</p>
+<h6 id="answer">Answer</h6>
+<p>d. bool</p>
+<p>53) The file student_marks.csv contains a comment field in every row. Which of these comments may cause the program to fail to read that row properly?</p>
+<p>a. New student who joined school in Dec<br>
+b. School Topper in English!<br>
+c. Absent for English, Maths papers<br>
+d. &lt; empty string&gt;</p>
+<h6 id="answer">Answer</h6>
+<p>c. Absent for English, Maths papers</p>
+<p>54) Which of these is an error in the program?</p>
+<p>a. line_count should be initialised to 1 (not 0) in line 9.<br>b. The last 2 lines should have one less indentation.<br>c. The file opened for reading is not closed using close().<br>d. None of the above.</p>
+<h6 id="answer">Answer</h6>
+<p>d. None of the above.</p>
+<p>55) For the names shown in the sample data, assuming the roll number is entered correctly, which of
+these will NOT find a match?</p>
+<p>a. Nagesh Rao<br>b. Simram<br>c. Ravi Gulati<br>d. Simran shah</p>
+<h6 id="answer">Answer</h6>
+<p>b. Simram </p>
+
+<br/>
+<p>
+<a class="ud-main-btn" href="https://play.google.com/store/apps/details?id=com.edpunk.edpunk" target="_blank">
+    Click Here 
+</a> <b>to download EdPunk app and clear all concepts through videos & notes. Also more practice questions and NCERT Solutions are available.</b></p>
+<br/>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- ====== Footer Start ====== -->
+    <footer class="ud-footer">
+        <div class="ud-footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="ud-widget">
+                            <a href="/" class="ud-footer-logo">
+                                <img src="/media/logo.png" alt="logo" />
+                            </a>
+                            <p class="ud-widget-desc">
+                                EdPunk is a revolutionary mobile learning platform which provides free Python concept
+                                videos, notes,
+                                NCERT solutions and tests for CBSE XI & XII Computer Science (CS) and Informatics
+                                Practices (IP)
+                                students.
+                            </p>
+                            <ul class="ud-widget-socials">
+                                <li>
+                                    <a href="https://instagram.com/edpunkapp" target="_blank">
+                                        <img class="brand-img" src="/media/icons/insta.svg" alt="EdPunk Instagram Page">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/intent/user?screen_name=edpunkapp" target="_blank">
+                                        <img class="brand-img" src="/media/icons/twitter.svg" alt="EdPunk Twitter Page">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/edpunkapp" target="_blank">
+                                        <img class="brand-img" src="/media/icons/fb.svg" alt="EdPunk Facebook Page">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com/company/edpunk" target="_blank">
+                                        <img class="brand-img" src="/media/icons/linkedin.svg"
+                                            alt="EdPunk LinkedIn Page">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Links</h5>
+                            <ul class="ud-widget-links">
+                                <li>
+                                    <a href="/#home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/#features">Features</a>
+                                </li>
+                                <li>
+                                    <a href="/#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="/#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Policies</h5>
+                            <ul class="ud-widget-links">
+                                <li>
+                                    <a href="/privacy/">Privacy policy</a>
+                                </li>
+                                <li>
+                                    <a href="/terms/">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ud-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="ud-footer-bottom-left">
+                            <li>
+                                <a href="/privacy/">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="/terms/">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="ud-footer-bottom-right">
+                            Copyright &copy; 2021 edpunk.com. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+
+    <!-- ====== All Javascript Files ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "914ex6234j");
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ01W8CHWK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DQ01W8CHWK');
+    </script>
+</body>
+
+</html>
